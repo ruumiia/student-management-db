@@ -1,0 +1,99 @@
+
+div {
+    outline :1px solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    display: flex;
+    width: 50%;
+}
+  
+.column {
+    float: left;
+    min-height: 400px;
+    overflow: hidden;
+}
+
+.left {
+    width: 20%;
+}
+
+.right {
+    width: 80%
+}
+
+.labelcontainer {
+    width: 1000px;
+    height: auto;
+    border-bottom: none;
+}
+
+.label {
+    font-size: 24px;
+    margin-left: 10px;
+    padding-top: 2.5pt;
+    padding-bottom: 2.5pt;
+}
+
+.label2 {
+    font-size: 17px;
+    margin-left: 10px;
+    padding-top: 10pt;
+    
+}
+
+.addstudent {
+    margin-left: 20px;
+}
+
+.editdelstudent {
+    margin-left: 15px;
+    padding-bottom: 20px;
+}
+
+.mysqltable {
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 1px solid #000;
+}
+
+.formtable {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+.bottombuttons {
+    margin-left: 40%;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+td,th {
+    padding: 2pt;
+    border: 1px solid #000;
+}
+
+ul.ba {
+    list-style-type: none;
+    width:80px;
+    height:100px;
+    margin-top: 100px;
+    padding-left: 9pt;
+    text-indent: 5pt;
+    text-decoration: underline;
+}
+
+li {
+    width: 150%;
+    font-size: 20px;
+    border: 1px solid black;
+    padding-top: 2pt;
+    padding-bottom: 2pt;
+    margin-left: 1pt;
+}
