@@ -16,9 +16,7 @@
       <li> Instructor </li>
       <li> Grade </li>
     </div>
-
     
-
   <div class="column right">
     </br>
     <div class = "labelcontainer"><p class ="label">Student / Add Student</p></div>
