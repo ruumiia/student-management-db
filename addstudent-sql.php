@@ -1,5 +1,4 @@
 <?php
-//Insert
 
 include "sql-db-connect.php";
 
