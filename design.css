@@ -5,6 +5,30 @@ div {
     margin-right: auto;
 }
 
+td,th {
+    padding: 2pt;
+    border: 1px solid #000;
+}
+
+li {
+    width: 150%;
+    font-size: 20px;
+    border: 1px solid black;
+    padding-top: 2pt;
+    padding-bottom: 2pt;
+    margin-left: 1pt;
+}
+
+ul.ba {
+    list-style-type: none;
+    width:80px;
+    height:100px;
+    margin-top: 100px;
+    padding-left: 9pt;
+    text-indent: 5pt;
+    text-decoration: underline;
+}
+
 .row {
     display: flex;
     width: 50%;
@@ -30,6 +54,10 @@ div {
     border-bottom: none;
 }
 
+.input-readonly {
+    background: #e1e1e1;
+}
+
 .label {
     font-size: 24px;
     margin-left: 10px;
@@ -44,8 +72,13 @@ div {
     
 }
 
-.addstudent {
-    margin-left: 20px;
+.tablespacing {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.topOptions {
+    margin-left: 30%;
 }
 
 .editdelstudent {
@@ -68,32 +101,30 @@ div {
     border-collapse: collapse;
 }
 
+.bottomdiv {
+    padding-top: 1pt;
+    padding-bottom: 5pt;
+    border: none;
+}
+
+.displayrecordbutton {
+    margin-left: 43%;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
 .bottombuttons {
     margin-left: 40%;
     margin-top: 40px;
     margin-bottom: 15px;
 }
 
-td,th {
-    padding: 2pt;
-    border: 1px solid #000;
+.norecord {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
 }
 
-ul.ba {
-    list-style-type: none;
-    width:80px;
-    height:100px;
-    margin-top: 100px;
-    padding-left: 9pt;
-    text-indent: 5pt;
-    text-decoration: underline;
-}
-
-li {
-    width: 150%;
-    font-size: 20px;
-    border: 1px solid black;
-    padding-top: 2pt;
-    padding-bottom: 2pt;
-    margin-left: 1pt;
+.tablediv {
+    min-height: 300px;
 }
