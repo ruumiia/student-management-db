@@ -16,7 +16,7 @@
       <li> Instructor </li>
       <li> Grade </li>
     </div>
-    
+
   <div class="column right">
     </br>
     <div class = "labelcontainer"><p class ="label">Student / Add Student</p></div>
@@ -25,30 +25,30 @@
       <table class='formtable'>
       <tr>
       <th>Student No.:</th>
-      <th><input type='text' name='StudentNum' placeholder='Student Number' ></th>
+      <th><input type='text' id = "input1" name='StudentNum' placeholder='Student Number' required></th>
       </tr>
       <tr>
       <th>Last Name:</th>
-      <th><input type='text' name='LastName' placeholder='Last Name' ></th>
+      <th><input type='text' id = "input2" name='LastName' placeholder='Last Name' required></th>
       </tr>
       <tr>
       <th>First Name:</th>
-      <th><input type='text' name='FirstName' placeholder='First Name' ></th>
+      <th><input type='text' id = "input3" name='FirstName' placeholder='First Name' required></th>
       </tr>
       <tr>
       <th>Middle Name:</th>
-      <th><input type='text' name='MiddleName' placeholder='Middle Name' ></th>
+      <th><input type='text' id = "input4" name='MiddleName' placeholder='Middle Name' required></th>
       </tr>
       <tr>
       <th>Gender:</th>
-      <th><input type='text' name='Gender' placeholder='Gender' ></th>
+      <th><input type='text' id = "input5" name='Gender' placeholder='Gender' required></th>
       </tr>
       </table>
-      <div class = 'labelcontainer '>
-      <input type='submit' class ='bottombuttons' name='savebutton' value='Save Student' onclick="action='addstudent-sql.php'"/>
-      <input type='submit' value='Cancel' onclick="action='menu.php'" />
-      </div>
+      <div class = 'labelcontainer'>
+      <input type='submit' name='savebutton' class = "bottombuttons" value='Save Student' onclick="action='addstudent-sql.php'"/>
+      <input type='submit' id="cancelinput" value='Cancel' onclick="action='menu.php'" formnovalidate/>
       </form>
+      </div>
 
 </div>
 
