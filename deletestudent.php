@@ -23,15 +23,17 @@
 
       <?php 
       
-      include "sql-db-connect.php";
+      include "sql-db-connect.php"; // php file to connect to database 
 
-      $studentnum = $_POST['StudentNum'];
+      $id = $_GET['id'];
   
+      //query part to take row with equivalent student number for deletion
+
       $sql = "SELECT * FROM `tblstudent` 
-      WHERE `fldstudentno` = $studentnum";
+      WHERE `fldindex` = $id";
       $result = $con->query($sql);
       if ($result->num_rows > 0) {
-      // output data of each row
+      // outputs the row data with fldindex equal to the associated id 
       while($row = $result->fetch_assoc()) {
 
       ?>
@@ -73,5 +75,3 @@
 
 </body>
 </html>
-
-    
